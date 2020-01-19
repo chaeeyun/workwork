@@ -1,0 +1,35 @@
+/* AUTHOR */
+
+
+
+﻿BODY {font-size: 9pt; font-family: ±¼¸²,±¼¸²ü,helvetica,Vernada; scrollbar-face-color: #f0f0f0; scrollbar-shadow-color: gray; scrollbar-highlight-color: #ffffff; scrollbar-3dlight-color: #f0f0f0; scrollbar-darkshadow-color: #ffffff; scrollbar-track-color: #f0f0f0; scrollbar-arrow-color: #999999}
+TD {font-size: 9pt; color: #555555; font-family: ±¼¸²,±¼¸²ü,helvetica,Vernada}
+SELECT {font-size: 9pt; font-family: ±¼¸²,±¼¸²ü,helvetica,Vernada; color: #000000; background-color: #ffffff}
+.SubTitle {padding-right: 3px; padding-top: 3px; border: 1px outset; background-color: #7494ba; color: #ffffff}
+.SubTitle_C {padding-right: 3px; padding-top: 3px; border: 1px outset; background-color: #7494ba; color: #ffffff; text-align: center}
+.BoxButton_1 {height: 20px; font-size: 9pt; font-family: ±¼¸²,±¼¸²ü,helvetica,Vernada}
+.BoxLabel_1 {padding-right: 3px; padding-top: 3px; border: 1px outset; background-color: #cedeef; color: #3d587a}
+.BoxLabel_2 {padding-right: 3px; padding-top: 3px; border: 1px inset}
+.BoxText_1_noline {padding-right: 0px; padding-top: 0px; border: 0px; font-size: 9pt; background-color: #f7f7f7; color: #000000; text-align: right}
+.BoxText_1 {padding-right: 3px; padding-top: 3px; border: 1px solid #d9d9d9; font-size: 9pt; background-color: #f7f7f7; color: #000000}
+.BoxText_1_BOLD {padding-right: 2px; padding-top: 2px; border: 1px solid #d9d9d9; font-size: 9pt; background-color: #f7f7f7; color: #000000; font-weight: bold}
+.BoxText_1_BOLD_TE {border: 1px solid #d9d9d9; font-size: 9pt; background-color: #f7f7f7; color: #000000; font-weight: bold}
+.BoxText_1_RED {padding-right: 3px; padding-top: 3px; border: 1px solid #d9d9d9; font-size: 9pt; background-color: #ffe2ff; font-color: #ff0033}
+.BoxText_1_RED_BOLD {padding-right: 3px; padding-top: 3px; border: 1px solid #d9d9d9; font-size: 9pt; background-color: #ffe2ff; font-color: #ff0033; font-weight: bold}
+.BoxText_1_RED_BOLD_TE {border: 1px solid #d9d9d9; font-size: 9pt; background-color: #ffe2ff; font-color: #ff0033; font-weight: bold}
+.BoxText_1_RED_2 {padding-right: 3px; padding-top: 3px; border: 1px solid #d9d9d9; font-size: 9pt; background-color: #ffefff; font-color: #ff0033}
+.BoxText_1_C {padding-right: 3px; padding-top: 3px; border: 1px solid #d9d9d9; font-size: 9pt; background-color: #f7f7f7; color: #000000; text-align: center}
+.BoxText_1_C_BLUE {padding-right: 3px; padding-top: 3px; border: 1px solid #d9d9d9; font-size: 9pt; background-color: #ffe4e1; color: #000000; text-align: center}
+.BoxText_1_R {padding-right: 3px; padding-top: 3px; border: 1px solid #d9d9d9; font-size: 9pt; background-color: #f7f7f7; color: #000000; text-align: right}
+.BoxText_2 {font-size: 9pt; background-color: #ffffff}
+.BoxText_2_C {font-size: 9pt; background-color: #ffffff; text-align: center}
+.BoxText_2_R {font-size: 9pt; background-color: #ffffff; text-align: right}
+.BoxText_2_S {font-size: 9pt; background-color: #fcfbe4}
+.BoxLabel_1_C {padding-left: 3px; padding-right: 3px; padding-top: 3px; border: 1px outset; background-color: #cedeef; color: #3d587a; text-align: center}
+.BoxText_3 {padding-right: 3px; padding-top: 3px; border: 1px solid #d9d9d9; font-size: 9pt; background-color: #11ccdd; color: #000000; text-align: center}
+.BoxText_4_C {padding-right: 3px; padding-top: 3px; border: 1px solid #d9d9d9; font-size: 9pt; background-color: #f7f7f7; color: #0000ff; text-align: center}
+.BoxText_5_C {padding-right: 3px; padding-top: 3px; border: 1px solid #d9d9d9; font-size: 9pt; background-color: #f7f7f7; color: #ff0000; text-align: center}
+.BoxLabel_1_R {padding-left: 3px; padding-right: 3px; padding-top: 3px; border: 1px outset; background-color: #cedeef; color: #3d587a; text-align: right}
+A {textt-decoration: none}
+A:link, :visited {text-decoration: none; color: #555555; line-height: 17px}
+A:hover {text-decoration: none; color: #0066cc; line-height: 17px}
