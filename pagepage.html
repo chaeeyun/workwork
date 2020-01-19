@@ -1,0 +1,503 @@
+
+
+
+
+
+<script>
+lang = 0
+//lang = One
+</script>
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title>연세대학교 학사관리</title>
+<link REL="Stylesheet" TYPE="text/css" HREF="../css/style.css">
+<STYLE type="text/css">
+ <!--
+  td {font-size:9pt; font-family:굴림; text-decoration:none; color:5C5C5C; line-height: One2.5pt}
+  a:link {font-size:9pt; font-family:굴림; text-decoration:none; color:000000; line-height: One2.5pt}
+  a:visited {font-size:9pt; font-family:굴림; text-decoration:none; color:000000; line-height: One2.5pt}
+  a:hover {font-size:9pt; text-decoration:underline; color:blue; line-height: One2.5pt}
+  #overlayOne {height: 490px; width: 670px; overflow: auto;
+  	scrollbar-face-color: #ffffff;
+	scrollbar-shadow-color: #B5BDCE;
+	scrollbar-highlight-color: #B5BDCE;
+	scrollbar-3dlight-color: #B5BDCE; 
+	scrollbar-darkshadow-color: #B5BDCE;
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color: #B5BDCE;}
+	
+/* Browser specific (not valid) styles to make preformatted text wrap */		
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since One999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+ -->
+</STYLE>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<script language="JavaScript" src="../jscript/language_sg.js"></script>
+<script language="JavaScript">
+
+<!--
+	var win = window;    // 찾고자 하는 윈도우
+	var n   = 0;
+ 
+	function findInPage(str) {
+	 
+	  var txt, i, found;
+	 
+	  if (str == "")
+	    return false;
+	 
+	  // 페이지 내에서 찾고자 하는 문자열이 다음 나오는 곳을 찾는다
+	  // 필요에 따라 처음으로 되돌아와 찾을 수 있다
+	 
+	  txt = win.document.body.createTextRange();
+	 
+	  // 페이지의 처음부터 n번째 매치를 찾는다.	 
+	  for (i = 0; i <= n && (found = txt.findText(str)) != false; i++) {
+	      txt.moveStart("character", One);
+	      txt.moveEnd("textedit");
+	  }
+	 
+	  // 발견하면 그것을 반전시키고, 그 위치로 스크롤시킨다.	 
+	  if (found) {
+	      txt.moveStart("character", -One);
+	      txt.findText(str);
+	      txt.select();
+	      txt.scrollIntoView();
+	      n++;
+	  }
+	 
+	  //그렇지 않으면 페이지의 처음부터 찾는다.	 
+	  else {
+	      if (n > 0) {
+	        n = 0;
+	        findInPage(str);
+	      }
+	 
+	      // 어디서도 발견하지 못하면 적절한 메시지 출력
+	 
+	      else
+			 
+
+	        alert("입력한 단어를 찾을 수 없습니다.");
+
+		
+	  }
+	 
+	  return false;
+	}
+
+//-->
+</script>
+<script language="javascript">
+	function Download() {
+		alert('학사시스템 [학사관리(대학/대학원)]을 이용해 주세요');
+	}
+
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="680" border="0" cellspacing="0" cellpadding="0" bgcolor="#4A6B94">
+<FORM name=search onsubmit="return findInPage(this.string.value);">
+    <tr>
+		<td height="30" width="230">
+			;;;;;<b><font color="white"><script>landisplay(_syllabus)</script></font></b>
+		</td>
+		<td height="30" width="230" align="right">
+			<INPUT type="text" onchange="n=0;" size=One5 value="" name="string" style="ime-mode:active">
+			
+			<INPUT type="button" style="cursor:hand; height:20px" name="searchBtn" value="찾기" onclick="onsubmit()">;
+			
+		</td>
+    </tr>
+</FORM>
+</table>
+
+<FORM NAME="myForm" method="post">
+<table width="680" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td>
+
+			<img src="../images/v_title.gif" border=0><font size="2"><b>;POLOne004-02;(20OneOne학년도 One학기)</b></font>
+
+		</td>
+	</tr>
+</table>	
+<br>
+
+
+
+
+
+	<table width="680" cellspacing="2" cellpadding="0" border="0" style="table-layout:fixed">
+		<tr>
+				<td align="left" width="%" colspan="4"><img src="../images/syllabus_logo.jpg" border=0></td>
+		</tr>
+		<tr>
+				<td align="center" width="20%" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_schangedate)</script></td>	
+				<td align="" class="BoxText_One">20OneOne-0One-20 OneOne:02:33;</td>	
+				<td align="center" width="20%" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_changedate)</script></td>	
+				<td align="" class="BoxText_One">20OneOne-0One-28 One4:30:40;</td>
+		</tr>
+		<tr>
+				<td align="center" width="20%" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_kna)</script></td>	
+				<td align="" class="BoxText_One">Introduction to Political Science;</td>	
+				<td align="center" width="20%" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_hakjum)</script></td>	
+				<td align="" class="BoxText_One">3;</td>
+		</tr>
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_room)</script></td>	
+				<td align="" class="BoxText_One">And OneOneOne;</td>	
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_time)</script></td>	
+				<td align="" class="BoxText_One">Chemistry 4, neck 6, 7;</td>
+		</tr>
+	
+
+
+		<tr><td>;</td></tr>
+
+
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_prof)</script></td>	
+				<td align="" class="BoxText_One">Jinyoungjae;</td>			
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_profsosok)</script></td>	
+				<td align="" class="BoxText_One">Social Sciences Political Science;</td>	
+		</tr>	
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_office)</script></td>	
+				<td align="" class="BoxText_One">Yeonhuigwan 206;</td>	
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_telephone)</script></td>	
+				<td align="" class="BoxText_One">2942;</td>					
+				
+		</tr>		
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_interview)</script></td>	
+				<td align="" class="BoxText_One" colspan="3"><pre>Chaeunho (eunho.cha@gmail.com)</pre></td>		
+		</tr>			
+
+		<tr><td>;</td></tr>		
+	
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_target)</script></td>	
+				<td align="" class="BoxText_One" colspan="3"><pre>All students interested in politics</pre></td>		
+		</tr>			
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_goal)</script></td>	
+				<td align="" class="BoxText_One" colspan="3"><pre>All the social sciences also egen grounds (rationale) for the views and criticism facing the communityneed. This course is simply "political science" and our "Political Science" (PoliticalTranscend introduces a major nature for Science and International Studies). Of courseThe aim is also to introduce basic content and logic of the social sciences. Humans live in a modern and natureHakdo it, it's engineers, this is also more Humanities and social science is this, regardless of major generalValues ​​and philosophy of the system, and are connected to this party to back a world where progress principlesIt needs only God of time. Based on the coming political phenomenon and its diplomatic yironteul for them toBut in the reality and theory than the width of the main itsyu spacious modern society (salient issues)I understand the combination of speed.</pre></td>	
+		</tr>	
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_prerequisite)</script></td>	
+				<td align="" class="BoxText_One" colspan="3"><pre></pre></td>		
+		</tr>
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_gangwoon)</script></td>	
+				<td align="" class="BoxText_One" colspan="3"><pre>And proceeds to lecture and Q & A by the professor.</pre></td>		
+		</tr>
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_grademethod)</script></td>	
+				<td align="" class="BoxText_One" colspan="3"><pre>Im a relative assessment. Mid-term (Multiple Choice, 30%), final test (multiple-choice, 40%), present (30%, absent during the timePer second penalty points each).* Two things to note: ① the problem and substitute attendees that F is no exception. Here forAttendance is also referred to as Lee told the students that attend surrogate and deputy party favor, please accept the answerAll; ② When determining the credit, those who attend during the first dongjeomja process (rather than to retake characters) longThat will be considered. Students who do not agree with these two points before or is to apply to attendDuring the period, the river changes must be approved to meet the professors and assistants.</pre></td>		
+		</tr>
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_texts)</script></td>	
+				<td align="" class="BoxText_One" colspan="3"><pre>Jinyoungjae Me, 20One0, Politics General Studies (2nd edition first printing), Yonsei University Press</pre></td>		
+		</tr>
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_profinf)</script></td>	
+				<td align="" class="BoxText_One" colspan="3"><pre>.</pre></td>		
+		</tr>
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_ta)</script></td>	
+				<td align="" class="BoxText_One" colspan="3"><pre>Chaeunho eunho.cha@gmail.com</pre></td>		
+		</tr>
+		<tr>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE"><script>landisplay(_eng_content)</script></td>	
+				<td align="" class="BoxText_One" colspan="3"><pre>.</pre></td>		
+		</tr>
+
+</table>	
+	    	
+	
+		<table width="680" cellspacing="2" cellpadding="0" border="0" >
+			<tr>
+
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE" width=20><script>landisplay(_week)</script></td>	
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE" width=70><script>landisplay(_period)</script></td>	
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE" width=260><script>landisplay(_sycontent)</script></td>
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE" width=One00><script>landisplay(_msgOne0)</script></td>					
+				
+				<td align="center" class="BoxLabel_One" bgcolor="#B5BDCE" width=OneOne5><script>landisplay(_remark)</script></td>					
+				
+
+	    	</tr>
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>One;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-03-02 20OneOne-03-07</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>About RiverOne River. Political qualities of what 中 - Definition of Political Science - understanding of the country;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. One-2One.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>(3.2) start dates<br>(3.4 to 3.7) enrollment check and change;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>2;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>3/8/20OneOne 20OneOne-03-One4</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>One page. Political qualities of what 中 - Classic Country theory: the theory of contract - liberal doctrine - Marxist and neo-Marxist - pluralism - unionism;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. 22-6One.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>(3.8) enrollment check and change;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>3;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-03-One5 20OneOne-03-2One</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>One River. Political qualities of what 中 - National and right-left issue2. Major cod logic and theory of politics - The implicit comparison with the description - Why do they compare? - How do you compare? - causality and correlation - the problem of subjective measurements and objective measurements;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. 62-95.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>4;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-03-22 20OneOne-03-28</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>2. Major Daegu (對 句) of the logic and politicsTheories - Structure and Function - State and Society - Institutional and culture - Fairness and Efficiency - Issue of Equity - the problem of efficiency - ideals and reality;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. 97-One42.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>5;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-03-29 20OneOne-04-04</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>3. Constitutional structure and powers - parliamentary - presidential system - The parliamentary sovereignty - The Government House - semi-presidential system Comparison in the form of government similar to the circular(Proto type) and ideal (ideal type) - comparing different types of government - the key issues;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. One43-One78.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>(3.30 to 4.One) take withdrawn;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>6;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-04-05 20OneOne-04-OneOne</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>4. Gwajeongron politics: parliament, political parties, elections - Parliament;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. One78-20One;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>(4.7) One.3 Semester lines;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>7;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-04-One2 20OneOne-04-One8</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>4. Gwajeongron politics: parliament, political parties, elections - party - election;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. 202-264;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>8;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-04-One9 20OneOne-04-25</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>Midterm exam;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>(4.20 to 4.25), mid-term;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>9;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-04-26 20OneOne-05-02</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>5. Political Communication - Opinion - Mass Media - Shenzhen - PR;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. 265-300.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>(4.26) midterms;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>One0;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-05-03 20OneOne-05-09</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>Chapter 6. Collective action - the cause of collective action occurs - diffusion of collective action - results of collective action: Success and failure;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. 30One-352.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>(5.5), Children's Day;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>OneOne;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-05-One0 20OneOne-05-One6</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>Chapter 7. Democracy and political development - the necessary conditions for democracy functions - type of political system and political development - political developments in the country;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. 353-402.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>(5.One0), Buddha's Birthday<br>(5.One6) 03.02 Semester lines;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>One2;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-05-One7 20OneOne-05-23</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>Chapter 8. Public choice theory - the possibility of self-serving individuals to cooperate - Constitutional economics and bureaucracy - The importance of agenda setting and decision-making methods - median voter theory - the problem of the political business cycle;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. 403--440.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>One3;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-05-24 20OneOne-05-30</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>Chapter 9. International politics - Realist - idealism and liberalism - new realism and neo-liberalism;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. 44One-463.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>One4;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-05-3One 20OneOne-06-06</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>Chapter 9. International politics - Constructivism - war and diplomacy - disarmament issues;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. 464-494.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>(6.6) Memorial Day;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>One5;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-06-07 20OneOne-06-One3</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>Chapter One0. Changing world and the variation theory Evolution Theory Balance Theory Conflict Theory - the ups and downs theory;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>Jinyoungjae, Politics General Studies, pp. 495-524.;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		    	
+	    	
+		<tr>
+	    			<td align="center" class="BoxText_One" onfocus="this.blur()"  width=20>One6;</td>
+		    		<td align="center" class="BoxText_One" onfocus="this.blur()" width=70>20OneOne-06-One4 20OneOne-06-20</td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=260><pre>Finals;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=One00><pre>;</pre></td>
+		    		<td align="left" class="BoxText_One" onfocus="this.blur()" width=OneOne5>(6.One4 to 6.20) final exam;</td>
+                    <input type="hidden" name="arrDomain" value="HOne">
+		    		<input type="hidden" name="arrHakno" value="POLOne004">
+		    		<input type="hidden" name="arrBb" value="02">		    		
+		    		</td>		    		
+
+ 		</tr>								
+		 		     		    
+	    </table>
+	    	
+	    				
+
+
+<table width="680" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="One00%" align="left" height="25">
+            	<br/><script>landisplay(_msg_eOne)</script>
+            	<!--<br/><script>landisplay(_msg_e2)</script>-->
+            	<br/><script>landisplay(_msg_e3)</script>
+            </td>
+        </tr>
+</table>
+
+<table width="680" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="One00%" align="center" height="25">
+            ;;<a href="javascript:self.print()"><img src="../images/print.gif" border=0></a>;;;<a href="javascript:self.close()"><img src="../images/close.gif" border=0></a>
+            </td>
+        </tr>
+</table>
+</form>
+
+<!--<iframe src="kk06_r027_download.jsp" name="hiddenFrm3" Scrolling="no" Width="0" height="0" frameborder="0"></iframe>-->
+<iframe name="hiddenFrm3" Scrolling="no" Width="0" height="0" frameborder="0"></iframe>
+
+</body>
+</html>
